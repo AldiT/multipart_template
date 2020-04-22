@@ -2,7 +2,6 @@
 Simple example for multipart processing © Aldi Topalli
 """
 from flask import Flask, request
-from werkzeug import secure_filename
 
 app = Flask(__name__)
 
