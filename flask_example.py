@@ -9,9 +9,9 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
     username = request.args.get('username')
-    if request.method == 'POST':
-      f = request.files['file']
-      f.save(secure_filename(f.filename)) # Or do some arbitrary processing
+    if request.method == 'POST':#
+        f = request.files['file']
+        #do some arbitrary processing
 
     ## Maybe get some other parameters using requests
     
