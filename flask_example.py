@@ -17,7 +17,7 @@ def index():
     
     #### Question
     ## How to reproduce this simple multipart processing in an OpenFaaS function?
-    return "File saved successfully"
+    return "File processed successfully"
 
 
 if __name__ == '__main__':
